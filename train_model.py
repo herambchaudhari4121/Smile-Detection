@@ -16,6 +16,10 @@ import imutils
 import cv2
 import os
 
+#desable warnings
+import warnings
+warnings.filterwarnings("ignore")
+
 #argument parser for command line argument
 ap = argparse.ArgumentParser()
 ap.add_argument("-d", "--dataset", required=True,
