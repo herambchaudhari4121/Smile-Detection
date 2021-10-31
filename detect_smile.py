@@ -36,7 +36,7 @@ if not args.get("video", False):
 else:
 	camera = cv2.VideoCapture(args["video"])
 
-#keep looping
+# keep on looping using while-loop
 while True:
 	#grab the current frame
 	(grabbed, frame) = camera.read()
